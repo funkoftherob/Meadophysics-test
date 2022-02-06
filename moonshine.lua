@@ -18,7 +18,7 @@ local g = grid.connect()
 
 -- voicing
 
-local Ack = include("Moonshine/lib/Moonshine")
+local Moonshine = include('engine_study/lib/moonshine_engine')
 engine.name = 'Moonshine'
 
 function trigger(note_num, hz, voice)
