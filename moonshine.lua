@@ -22,7 +22,6 @@ local Moonshine = include('engine_study/lib/moonshine_engine')
 engine.name = 'Moonshine'
 
 function trigger(note_num, hz, voice)
-  engine.trig(voice-1)
 end
 
 function gate_high(note_num, hz, voice)
